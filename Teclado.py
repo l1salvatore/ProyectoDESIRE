@@ -1,16 +1,18 @@
-import USB,evdev,threading,sys
+import USB,evdev,threading,sys,time
 
-global codigo
-codigo = ""
+#global codigo
+#codigo = [1]
+#global flag
+#flag = threading.Event()
 
 class Teclado:
 	def __init__(self,port):
 		self.puerto = USB.usb(port)
-	def iniciar_teclado(self):
-		p = threading.Thread(target=self.puerto.obtener_evento,args=(codigo,))
-	        p.start()
-		while 1:
-		    if codigo == evdev.ecodes.KEY_A:
+	def esperar_tecla(self):
+		#p = threading.Thread(target=self.puerto.obtener_evento,args=(codigo,flag))
+	        #p.start()
+		ev = self.puerto.obtener_evento()
+		if ev == evdev.ecodes.KEY_A:
 			print('A')
-		    elif codigo == evdev.ecodes.KEY_B:
+		elif ev == evdev.ecodes.KEY_B:
 			print('B')
