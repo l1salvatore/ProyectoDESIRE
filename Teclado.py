@@ -26,7 +26,8 @@ teclas = { evdev.ecodes.KEY_A : 'A',
 	   evdev.ecodes.KEY_W : 'W',
 	   evdev.ecodes.KEY_X : 'X',
 	   evdev.ecodes.KEY_Y : 'Y',
-	   evdev.ecodes.KEY_Z : 'Z'}
+	   evdev.ecodes.KEY_Z : 'Z',
+	   evdev.ecodes.KEY_F1 : "F1"}
 
 teclas = defaultdict(lambda: "UNKNOWN", teclas)
 

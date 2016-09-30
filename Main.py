@@ -3,7 +3,9 @@ from collections import defaultdict
 
 codigos = {'A': "AGREGAR",
 	   'U': "AJUSTAR",
-	   'C': "UBICARPUNTOPIVOT"}
+	   'C': "UBICARPUNTOPIVOT",
+	   'S': "SAVE",
+	   "F1" : "LINK"}
 
 codigos = defaultdict(lambda: -1, codigos)
 
