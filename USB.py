@@ -10,8 +10,3 @@ class usb:
 		   # for event2 in self.device.read_loop():
 			if event1.type == evdev.ecodes.EV_KEY and event1.value == 1:
 				 return event1.code
-				#break
-			    	#if event.code == evdev.ecodes.KEY_A:
-				#    print('A')
-				#elif event.code == evdev.ecodes.KEY_B:
-				#    print('B') 
