@@ -7,9 +7,9 @@ class usb:
 		print(self.device)
 	def obtener_evento(self):
 		for event1 in self.device.read_loop():
-		    for event2 in self.device.read_loop():
-			if event2.type == evdev.ecodes.EV_KEY and event2.value == 1:
-				 return event2.code
+		   # for event2 in self.device.read_loop():
+			if event1.type == evdev.ecodes.EV_KEY and event1.value == 1:
+				 return event1.code
 				#break
 			    	#if event.code == evdev.ecodes.KEY_A:
 				#    print('A')
