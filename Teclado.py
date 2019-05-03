@@ -40,3 +40,4 @@ class Teclado:
 	def esperar_tecla(self):
 		ev = self.puerto.obtener_evento()
 		return teclas[ev]
+sarasa
