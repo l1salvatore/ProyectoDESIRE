@@ -1,4 +1,4 @@
-import USB,evdev,threading,sys,time
+import USB,evdev,threading,sys,time EDIT
 from collections import defaultdict
 
 {- Merge test -}
