@@ -18,17 +18,17 @@ teclas = { evdev.ecodes.KEY_A : 'A',
 	   evdev.ecodes.KEY_M : 'M',
 	   evdev.ecodes.KEY_N : 'N1',
 	   evdev.ecodes.KEY_O : 'O',
-	   evdev.ecodes.KEY_P : 'P',
+	   evdev.ecodes.KEY_P : 'P', ACA HAY OTRO CAMBIO
 	   evdev.ecodes.KEY_Q : 'Q',
 	   evdev.ecodes.KEY_R : 'R',
 	   evdev.ecodes.KEY_S : 'S',
-	   evdev.ecodes.KEY_T : 'T',
+	   evdev.ecodes.KEY_T : 'T', ACA HAY OTRO CAMBIO
 	   evdev.ecodes.KEY_U : 'U',
 	   evdev.ecodes.KEY_V : 'V',
 	   evdev.ecodes.KEY_W : 'W',
 	   evdev.ecodes.KEY_X : 'X',
 	   evdev.ecodes.KEY_Y : 'Y',
-	   evdev.ecodes.KEY_Z : 'Z',
+	   evdev.ecodes.KEY_Z : 'Z', ACA HAY UN CAMBIO
 	   evdev.ecodes.KEY_F1 : "F1"}
 
 teclas = defaultdict(lambda: "UNKNOWN", teclas)
