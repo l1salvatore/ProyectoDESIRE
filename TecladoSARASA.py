@@ -3,8 +3,8 @@ from collections import defaultdict
 
 {- Merge test -}
 
-teclas = { evdev.ecodes.KEY_A : 'A',
-	   evdev.ecodes.KEY_B : 'B',
+teclas = { evdev.ecodes.KEY_A : 'A', ad
+	   evdev.ecodes.KEY_B : 'B', ab
 	   evdev.ecodes.KEY_C : 'C',
 	   evdev.ecodes.KEY_D : 'D',
 	   evdev.ecodes.KEY_E : 'E',
